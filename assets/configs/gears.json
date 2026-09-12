@@ -1,0 +1,94 @@
+{
+  "gears": [
+    {
+      "id": "spinach",
+      "name": "Bánh Mì",
+      "description": "Tăng sát thương cho tất cả vũ khí.",
+      "levelDescriptions": [
+        "Tăng 10% sát thương cho tất cả vũ khí.",
+        "Tăng 10% sát thương cho tất cả vũ khí.",
+        "Tăng 10% sát thương cho tất cả vũ khí.",
+        "Tăng 10% sát thương cho tất cả vũ khí.",
+        "Tăng 10% sát thương cho tất cả vũ khí."
+      ],
+      "maxLevel": 5,
+      "onEquipEffect": "add_power",
+      "onEquipValue": 0.10
+    },
+    {
+      "id": "empty_tome",
+      "name": "Đề Cương Ôn Tập",
+      "description": "Giảm thời gian hồi chiêu của vũ khí.",
+      "levelDescriptions": [
+        "Giảm 8% thời gian hồi chiêu của vũ khí.",
+        "Giảm 8% thời gian hồi chiêu của vũ khí.",
+        "Giảm 8% thời gian hồi chiêu của vũ khí.",
+        "Giảm 8% thời gian hồi chiêu của vũ khí.",
+        "Giảm 8% thời gian hồi chiêu của vũ khí."
+      ],
+      "maxLevel": 5,
+      "onEquipEffect": "reduce_cooldown",
+      "onEquipValue": 0.08
+    },
+    {
+      "id": "wings",
+      "name": "Giày Thượng Đình",
+      "description": "Tăng tốc độ di chuyển của nhân vật.",
+      "levelDescriptions": [
+        "Tăng 10% tốc độ di chuyển của nhân vật.",
+        "Tăng 10% tốc độ di chuyển của nhân vật.",
+        "Tăng 10% tốc độ di chuyển của nhân vật.",
+        "Tăng 10% tốc độ di chuyển của nhân vật.",
+        "Tăng 10% tốc độ di chuyển của nhân vật."
+      ],
+      "maxLevel": 5,
+      "onEquipEffect": "add_speed",
+      "onEquipValue": 0.10
+    },
+    {
+      "id": "hollow_heart",
+      "name": "Mì Tôm Hảo Hảo",
+      "description": "Tăng lượng HP tối đa.",
+      "levelDescriptions": [
+        "Tăng 20% lượng HP tối đa.",
+        "Tăng 20% lượng HP tối đa.",
+        "Tăng 20% lượng HP tối đa.",
+        "Tăng 20% lượng HP tối đa.",
+        "Tăng 20% lượng HP tối đa."
+      ],
+      "maxLevel": 5,
+      "onEquipEffect": "increase_max_hp",
+      "onEquipValue": 20
+    },
+    {
+      "id": "candelabrador",
+      "name": "Thước Kẻ Gỗ",
+      "description": "Tăng phạm vi tấn công của vũ khí.",
+      "levelDescriptions": [
+        "Tăng 20% phạm vi tấn công của vũ khí.",
+        "Tăng 20% phạm vi tấn công của vũ khí.",
+        "Tăng 20% phạm vi tấn công của vũ khí.",
+        "Tăng 20% phạm vi tấn công của vũ khí.",
+        "Tăng 20% phạm vi tấn công của vũ khí."
+      ],
+      "maxLevel": 5,
+      "onEquipEffect": "add_area",
+      "onEquipValue": 0.20
+    },
+    {
+      "id": "attractorb",
+      "name": "Thẻ Thư Viện",
+      "description": "Tăng phạm vi hút ngọc kinh nghiệm.",
+      "levelDescriptions": [
+        "Tăng 20% phạm vi hút ngọc kinh nghiệm.",
+        "Tăng 20% phạm vi hút ngọc kinh nghiệm.",
+        "Tăng 20% phạm vi hút ngọc kinh nghiệm.",
+        "Tăng 20% phạm vi hút ngọc kinh nghiệm.",
+        "Tăng 20% phạm vi hút ngọc kinh nghiệm."
+      ],
+      "maxLevel": 5,
+      "onEquipEffect": "add_magnet",
+      "onEquipValue": 0.20
+    }
+  ]
+}

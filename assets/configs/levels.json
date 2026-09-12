@@ -1,0 +1,84 @@
+{
+  "levels": [
+    {
+      "levelId": "TANG_1",
+      "name": "Floor 1 (tang1)",
+      "mapPath": "map/tang1.tmx",
+      "spawnX": 400.0,
+      "spawnY": 400.0,
+      "zoom": 1.0,
+      "bgmPath": "audio/music/school_ground_map.mp3",
+      "ambientColor": {
+        "r": 0.9,
+        "g": 0.9,
+        "b": 0.9,
+        "a": 1.0
+      },
+      "isInfinite": false
+    },
+    {
+      "levelId": "LIBRARY",
+      "name": "Library",
+      "mapPath": "map/library.tmx",
+      "spawnX": 400.0,
+      "spawnY": 400.0,
+      "zoom": 1.0,
+      "bgmPath": "audio/music/library_map.mp3",
+      "ambientColor": {
+        "r": 0.6,
+        "g": 0.6,
+        "b": 0.6,
+        "a": 1.0
+      },
+      "isInfinite": false
+    },
+    {
+      "levelId": "LAB",
+      "name": "Lab",
+      "mapPath": "map/lab.tmx",
+      "spawnX": 400.0,
+      "spawnY": 400.0,
+      "zoom": 1.0,
+      "bgmPath": "audio/music/lab_map.mp3",
+      "ambientColor": {
+        "r": 0.6,
+        "g": 0.6,
+        "b": 0.6,
+        "a": 1.0
+      },
+      "isInfinite": false
+    },
+    {
+      "levelId": "FINAL_OUTSIDE",
+      "name": "Final Outside",
+      "mapPath": "map/outside.tmx",
+      "spawnX": 400.0,
+      "spawnY": 400.0,
+      "zoom": 1.0,
+      "bgmPath": "audio/music/school_ground_map.mp3",
+      "ambientColor": {
+        "r": 0.9,
+        "g": 0.9,
+        "b": 0.9,
+        "a": 1.0
+      },
+      "isInfinite": false
+    },
+    {
+      "levelId": "BOSS_ROOM",
+      "name": "Boss Room",
+      "mapPath": "map/boss_room.tmx",
+      "spawnX": 400.0,
+      "spawnY": 400.0,
+      "zoom": 1.0,
+      "bgmPath": "audio/music/final_boss.mp3",
+      "ambientColor": {
+        "r": 0.6,
+        "g": 0.6,
+        "b": 0.6,
+        "a": 1.0
+      },
+      "isInfinite": false
+    }
+  ]
+}

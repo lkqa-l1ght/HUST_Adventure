@@ -1,0 +1,261 @@
+{
+  "items": [
+    {
+      "type": "consumable",
+      "id": "coffee_den",
+      "name": "Cà Phê Đen",
+      "description": "Hồi 10 HP, 30 Thể lực, tăng tốc trong 30s.",
+      "spritePath": "items/coffee.png",
+      "effects": [
+        {
+          "effect": "heal",
+          "value": 10
+        },
+        {
+          "effect": "restore_stamina",
+          "value": 30
+        },
+        {
+          "effect": "speed_boost",
+          "duration": 30,
+          "multiplier": 1.3
+        },
+        {
+          "effect": "coffee"
+        }
+      ],
+      "floatingTexts": [
+        {
+          "text": "+10 HP",
+          "colorHex": "00FF00",
+          "duration": 1.2,
+          "offsetX": -15,
+          "startVy": 90
+        },
+        {
+          "text": "+30 SP",
+          "colorHex": "FFD700",
+          "duration": 1.2,
+          "offsetX": 15,
+          "startVy": 90
+        },
+        {
+          "text": "Speed Up!",
+          "colorHex": "00FFFF",
+          "duration": 1.2,
+          "offsetX": 0,
+          "startVy": 120
+        }
+      ]
+    },
+    {
+      "type": "consumable",
+      "id": "coffee_sua",
+      "name": "Cà Phê Sữa",
+      "description": "Hồi 20 HP, 25 Thể lực, tăng tốc và hồi máu theo thời gian.",
+      "spritePath": "items/coffee.png",
+      "effects": [
+        {
+          "effect": "heal",
+          "value": 20
+        },
+        {
+          "effect": "restore_stamina",
+          "value": 25
+        },
+        {
+          "effect": "speed_boost",
+          "duration": 20,
+          "multiplier": 1.3
+        },
+        {
+          "effect": "regen",
+          "duration": 20,
+          "value": 1
+        },
+        {
+          "effect": "coffee"
+        }
+      ],
+      "floatingTexts": [
+        {
+          "text": "+20 HP",
+          "colorHex": "00FF00",
+          "duration": 1.2,
+          "offsetX": -15,
+          "startVy": 90
+        },
+        {
+          "text": "+25 SP",
+          "colorHex": "FFD700",
+          "duration": 1.2,
+          "offsetX": 15,
+          "startVy": 90
+        },
+        {
+          "text": "Regen & Speed Up!",
+          "colorHex": "00FFFF",
+          "duration": 1.2,
+          "offsetX": 0,
+          "startVy": 120
+        }
+      ]
+    },
+    {
+      "type": "consumable",
+      "id": "coffee_da",
+      "name": "Cà Phê Đá",
+      "description": "Hồi 10 Thể lực.",
+      "spritePath": "items/coffee.png",
+      "effects": [
+        {
+          "effect": "restore_stamina",
+          "value": 10
+        },
+        {
+          "effect": "coffee"
+        }
+      ],
+      "floatingTexts": [
+        {
+          "text": "+10 SP",
+          "colorHex": "FFD700",
+          "duration": 1.2,
+          "offsetX": 0,
+          "startVy": 90
+        }
+      ]
+    },
+    {
+      "type": "consumable",
+      "id": "coffee_chon",
+      "name": "Cà Phê Chồn",
+      "description": "Hồi 60 Thể lực, siêu tăng tốc nhưng gây ảo giác.",
+      "spritePath": "items/coffee.png",
+      "effects": [
+        {
+          "effect": "heal",
+          "value": 5
+        },
+        {
+          "effect": "restore_stamina",
+          "value": 60
+        },
+        {
+          "effect": "speed_boost",
+          "duration": 45,
+          "multiplier": 1.5
+        },
+        {
+          "effect": "confusion",
+          "duration": 45
+        },
+        {
+          "effect": "coffee"
+        }
+      ],
+      "floatingTexts": [
+        {
+          "text": "+5 HP",
+          "colorHex": "00FF00",
+          "duration": 1.2,
+          "offsetX": -20,
+          "startVy": 90
+        },
+        {
+          "text": "+60 SP",
+          "colorHex": "FFD700",
+          "duration": 1.2,
+          "offsetX": 20,
+          "startVy": 90
+        },
+        {
+          "text": "Hyper Speed!",
+          "colorHex": "00FFFF",
+          "duration": 1.2,
+          "offsetX": 0,
+          "startVy": 120
+        },
+        {
+          "text": "Confused!",
+          "colorHex": "FF00FF",
+          "duration": 1.2,
+          "offsetX": 0,
+          "startVy": 150
+        }
+      ]
+    },
+    {
+      "type": "consumable",
+      "id": "energy_drink",
+      "name": "Nước tăng lực",
+      "description": "Hồi 40 Thể lực.",
+      "spritePath": "items/energy_drink.png",
+      "effects": [
+        {
+          "effect": "restore_stamina",
+          "value": 40
+        }
+      ],
+      "floatingTexts": [
+        {
+          "text": "+40 SP",
+          "colorHex": "FFD700",
+          "duration": 1.2,
+          "offsetX": 0,
+          "startVy": 90
+        }
+      ]
+    },
+    {
+      "type": "consumable",
+      "id": "kho_ga",
+      "name": "Khô gà lá chanh",
+      "description": "Hồi 25 HP.",
+      "spritePath": "items/kho_ga.png",
+      "effects": [
+        {
+          "effect": "heal",
+          "value": 25
+        }
+      ],
+      "floatingTexts": [
+        {
+          "text": "+25 HP",
+          "colorHex": "00FF00",
+          "duration": 1.2,
+          "offsetX": 0,
+          "startVy": 90
+        }
+      ]
+    },
+    {
+      "type": "base",
+      "id": "note",
+      "name": "Ghi chú",
+      "description": "Một mảnh giấy nhỏ có chữ.",
+      "spritePath": "items/usb.png"
+    },
+    {
+      "type": "base",
+      "id": "lecture_notes",
+      "name": "Bài Giảng",
+      "description": "Tập bài giảng và ghi chép kiến thức trên lớp.",
+      "spritePath": "items/usb.png"
+    },
+    {
+      "type": "base",
+      "id": "usb",
+      "name": "USB",
+      "description": "USB chứa mã nguồn sửa lỗi hệ thống.",
+      "spritePath": "items/usb.png"
+    },
+    {
+      "type": "base",
+      "id": "brain",
+      "name": "Não Hoạt Động 100%",
+      "description": "Bảo vật từ thư viện - giúp tư duy sáng suốt.",
+      "spritePath": "items/brain.png"
+    }
+  ]
+}

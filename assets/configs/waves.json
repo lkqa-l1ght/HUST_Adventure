@@ -1,0 +1,94 @@
+{
+  "FINAL_OUTSIDE": [
+    {
+      "timeStart": 0,
+      "timeEnd": 30,
+      "enemyType": "null_pointer",
+      "spawnInterval": 6.0,
+      "spawnCount": 1,
+      "pattern": "RANDOM_EDGE"
+    },
+    {
+      "timeStart": 10,
+      "timeEnd": 120,
+      "enemyType": "segmentation_fault",
+      "spawnInterval": 8.0,
+      "spawnCount": 1,
+      "pattern": "RANDOM_EDGE"
+    },
+    {
+      "timeStart": 30,
+      "timeEnd": 60,
+      "enemyType": "syntax_error",
+      "spawnInterval": 5.0,
+      "spawnCount": 1,
+      "pattern": "RANDOM_EDGE"
+    },
+    {
+      "timeStart": 60,
+      "timeEnd": 60,
+      "enemyType": "null_pointer",
+      "spawnInterval": 0,
+      "spawnCount": 10,
+      "pattern": "CIRCLE_AMBUSH"
+    },
+    {
+      "timeStart": 60,
+      "timeEnd": 90,
+      "enemyType": "null_pointer",
+      "spawnInterval": 5.0,
+      "spawnCount": 1,
+      "pattern": "RANDOM_EDGE"
+    },
+    {
+      "timeStart": 90,
+      "timeEnd": 120,
+      "enemyType": "infinite_loop",
+      "spawnInterval": 10.0,
+      "spawnCount": 1,
+      "pattern": "RANDOM_EDGE"
+    },
+    {
+      "timeStart": 90,
+      "timeEnd": 120,
+      "enemyType": "compilation_error",
+      "spawnInterval": 10.0,
+      "spawnCount": 1,
+      "pattern": "RANDOM_EDGE"
+    },
+    {
+      "timeStart": 120,
+      "timeEnd": 120,
+      "enemyType": "stack_overflow",
+      "spawnInterval": 0,
+      "spawnCount": 3,
+      "pattern": "CIRCLE_AMBUSH"
+    }
+  ],
+  "TANG_1": [
+    {
+      "timeStart": 0,
+      "timeEnd": 30,
+      "enemyType": "null_pointer",
+      "spawnInterval": 5.0,
+      "spawnCount": 1,
+      "pattern": "RANDOM_EDGE"
+    },
+    {
+      "timeStart": 15,
+      "timeEnd": 45,
+      "enemyType": "syntax_error",
+      "spawnInterval": 6.0,
+      "spawnCount": 1,
+      "pattern": "RANDOM_EDGE"
+    },
+    {
+      "timeStart": 45,
+      "timeEnd": 45,
+      "enemyType": "null_pointer",
+      "spawnInterval": 0,
+      "spawnCount": 6,
+      "pattern": "CIRCLE_AMBUSH"
+    }
+  ]
+}

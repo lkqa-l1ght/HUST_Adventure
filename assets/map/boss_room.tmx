@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="46" height="61" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="4">
+ <tileset firstgid="1" source="../tsx/brick.tsx"/>
+ <objectgroup id="4" name="Spawn">
+  <object id="1" x="322.667" y="878.667" width="100" height="102"/>
+  <object id="2" x="557.333" y="528"/>
+  <object id="3" x="319.333" y="869.333" width="133.333" height="106.667"/>
+ </objectgroup>
+ <imagelayer id="2" name="Background">
+  <image source="Boss Room.jpg" width="736" height="978"/>
+ </imagelayer>
+</map>

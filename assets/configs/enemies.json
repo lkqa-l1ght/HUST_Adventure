@@ -1,0 +1,121 @@
+{
+  "enemies": [
+    {
+      "type": "syntax_error",
+      "name": "SyntaxErr",
+      "width": 32.0,
+      "height": 32.0,
+      "maxHp": 15.0,
+      "speed": 35.0,
+      "contactDamage": 0.0,
+      "movementBehavior": "flee",
+      "attackBehavior": "shooting",
+      "safeDistance": 200.0,
+      "fireInterval": 1.5,
+      "projectileSpeed": 200.0,
+      "projectileDamage": 10.0,
+      "spritePath": "character/enemy/syntax_error.png"
+    },
+    {
+      "type": "null_pointer",
+      "name": "NullPtr",
+      "width": 32.0,
+      "height": 32.0,
+      "maxHp": 10.0,
+      "speed": 60.0,
+      "contactDamage": 10.0,
+      "movementBehavior": "chase",
+      "spritePath": "character/enemy/null_pointer.png"
+    },
+    {
+      "type": "infinite_loop",
+      "name": "InfLoop",
+      "width": 32.0,
+      "height": 32.0,
+      "maxHp": 200.0,
+      "speed": 65.0,
+      "contactDamage": 15.0,
+      "movementBehavior": "chase",
+      "spritePath": "character/enemy/chatgpt.png"
+    },
+    {
+      "type": "stack_overflow",
+      "name": "StackOvfl",
+      "width": 48.0,
+      "height": 48.0,
+      "maxHp": 50.0,
+      "speed": 25.0,
+      "contactDamage": 20.0,
+      "movementBehavior": "bouncing",
+      "vx": 100.0,
+      "vy": 100.0,
+      "worldWidth": 800.0,
+      "worldHeight": 600.0,
+      "deathBehavior": "split",
+      "splitType": "stack_overflow",
+      "splitCount": 2,
+      "splitOffset": 30.0,
+      "spritePath": "character/enemy/stack_overflow.png"
+    },
+    {
+      "type": "library_boss",
+      "name": "LibBoss",
+      "width": 64.0,
+      "height": 64.0,
+      "maxHp": 100.0,
+      "speed": 35.0,
+      "contactDamage": 30.0,
+      "movementBehavior": "wander",
+      "attackBehavior": "radial_rotating_shooting",
+      "fireInterval": 0.5,
+      "projectileSpeed": 150.0,
+      "projectileDamage": 15.0,
+      "boss": true,
+      "animationFrames": [
+        "character/enemy/library_boss/sprite_0000.png",
+        "character/enemy/library_boss/sprite_0001.png",
+        "character/enemy/library_boss/sprite_0002.png",
+        "character/enemy/library_boss/sprite_0003.png"
+      ],
+      "frameDuration": 0.15
+    },
+    {
+      "type": "segmentation_fault",
+      "name": "SegFault",
+      "width": 36.0,
+      "height": 36.0,
+      "maxHp": 8.0,
+      "speed": 60.0,
+      "contactDamage": 15.0,
+      "movementBehavior": "telegraphed_charge",
+      "spritePath": "character/enemy/bkav.png"
+    },
+    {
+      "type": "compilation_error",
+      "name": "CompileErr",
+      "width": 36.0,
+      "height": 36.0,
+      "maxHp": 40.0,
+      "speed": 35.0,
+      "contactDamage": 2.0,
+      "movementBehavior": "flee",
+      "attackBehavior": "radial_rotating_shooting",
+      "safeDistance": 180.0,
+      "fireInterval": 1.2,
+      "projectileSpeed": 130.0,
+      "projectileDamage": 12.0,
+      "spritePath": "character/enemy/unikey.png"
+    },
+    {
+      "type": "final_boss",
+      "name": "T.H.T",
+      "width": 100.0,
+      "height": 100.0,
+      "maxHp": 1000.0,
+      "speed": 0.0,
+      "contactDamage": 0.0,
+      "boss": true,
+      "spritePath": "character/enemy/Boss THT.png"
+    }
+  ]
+}
